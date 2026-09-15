@@ -1,0 +1,4 @@
+baseURL = 'https://example.com/'
+locale = 'zh-cn'
+title = '李东泽'
+theme = 'PaperMod'
