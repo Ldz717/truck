@@ -2,3 +2,12 @@ baseURL = 'https://ldz717.github.io/truck/'
 locale = 'zh-cn'
 title = '程力集团锐途医疗专用汽车生产厂家'
 theme = 'PaperMod'
+[menu]
+  [[menu.main]]
+    name = '文章'
+    url = 'posts/'
+    weight = 1
+  [[menu.main]]
+    name = '关于'
+    url = 'about/'
+    weight = 2
