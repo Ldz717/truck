@@ -51,8 +51,7 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "title": "posts",
-      "path": "[[workspace]]/content/posts"
+      "path": "[[workspace]]/my-blog/content/posts"
     }
   ]
 }
