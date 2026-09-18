@@ -1,0 +1,62 @@
+.contact-footer {
+  margin-top: 2rem;
+  padding: 1.5rem 1rem;
+  border-top: 1px solid var(--border);
+  background: var(--code-bg);
+}
+
+.contact-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-footer h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary);
+}
+
+.contact-footer p {
+  font-size: 0.9rem;
+  color: var(--secondary);
+  margin: 0.3rem 0;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.8rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1.5rem;
+}
+
+.contact-list li {
+  font-size: 0.9rem;
+  color: var(--primary);
+}
+
+.contact-list a {
+  color: var(--primary);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--secondary);
+}
+
+.contact-list a:hover {
+  color: var(--secondary);
+}
+
+.contact-hours {
+  font-size: 0.8rem;
+  color: var(--secondary);
+  margin-top: 0.8rem;
+}
+
+@media (max-width: 600px) {
+  .contact-list {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}
